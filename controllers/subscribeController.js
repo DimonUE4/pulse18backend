@@ -2,7 +2,7 @@
 
 const User = require('../models/User');
 const Subscription = require('../models/Subscription');
-const Notification = require('../models/notification');
+const Notification = require('../models/Notification');
 
 exports.subscribeToModel = async (req, res) => {
   const modelId = req.params.modelId;
