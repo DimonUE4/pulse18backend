@@ -1,7 +1,7 @@
 const User = require('../models/User');
 const Post = require('../models/Post');
 const Message = require('../models/Message');
-const Notification = require('../models/notification');
+const Notification = require('../models/Notification');
 const Transaction = require('../models/Transaction');
 
 exports.getPurchases = async (req, res) => {
