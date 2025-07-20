@@ -1,5 +1,5 @@
 const User = require('../models/User');
-const Notification = require('../models/notification');
+const Notification = require('../models/Notification');
 const Transaction = require('../models/Transaction');
 
 exports.sendTip = async (req, res) => {
