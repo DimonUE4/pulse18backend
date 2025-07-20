@@ -20,7 +20,7 @@ const io = new Server(server, {
 
 // 🔧 Middleware
 app.use(cors({
-  origin: 'http://localhost:5000',
+  origin: 'https://whateverittakesteam.ru',
   credentials: true
 }));
 app.use(express.json());
