@@ -4,6 +4,7 @@ const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const path = require('path');
 const { Server } = require('socket.io');
+const allowedOrigin = 'https://whateverittakesteam.ru';
 require('dotenv').config();
 
 const connectDB = require('./config/db');
